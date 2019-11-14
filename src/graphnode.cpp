@@ -11,7 +11,7 @@ GraphNode::~GraphNode()
     //// STUDENT CODE
     ////
 
-    delete _chatBot; 
+//     delete _chatBot;  //Warm up task
 
     ////
     //// EOF STUDENT CODE
@@ -43,7 +43,7 @@ void GraphNode::MoveChatbotHere(ChatBot *chatbot)
 void GraphNode::MoveChatbotToNewNode(GraphNode *newNode)
 {
     newNode->MoveChatbotHere(_chatBot);
-    _chatBot = nullptr; // invalidate pointer at source
+//     _chatBot = nullptr; // invalidate pointer at source
 }
 ////
 //// EOF STUDENT CODE

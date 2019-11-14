@@ -26,8 +26,8 @@ ChatBot::ChatBot(std::string filename)
     _chatLogic = nullptr;
     _rootNode = nullptr;
 
-    // load image into heap memory
-    _image = new wxBitmap(filename, wxBITMAP_TYPE_PNG);
+    // load  image into heap memory
+   _image = new wxBitmap(filename, wxBITMAP_TYPE_PNG);
 }
 
 ChatBot::~ChatBot()
